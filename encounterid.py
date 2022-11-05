@@ -1,4 +1,5 @@
 ENCOUNTER_ID = {
+    # Blackwing Lair
     610: "Razorgore the Untamed",
     611: "Vaelastrasz the Corrupt",
     612: "Broodlord Lashlayer",
@@ -7,6 +8,7 @@ ENCOUNTER_ID = {
     615: "Flamegor",
     616: "Chromaggus",
     617: "Nefarian",
+    # Molten Core
     663: "Lucifron",
     664: "Magmadar",
     665: "Gehennas",
@@ -17,6 +19,7 @@ ENCOUNTER_ID = {
     670: "Golemagg the Incinerator",
     671: "Majordomo Executus",
     672: "Ragnaros",
+    # AQ40
     709: "The Prophet Skeram",
     710: "Silithid Royalty",
     711: "Battleguard Sartura",
@@ -32,6 +35,7 @@ ENCOUNTER_ID = {
     721: "Buru the Gorger",
     722: "Ayamiss the Hunter",
     723: "Ossirian the Unscarred",
+    # Zul'Gurub
     784: "High Priest Venoxis",
     785: "High Priestess Jeklik",
     786: "High Priestess Mar'li",
@@ -42,7 +46,9 @@ ENCOUNTER_ID = {
     791: "High Priestess Arlokk",
     792: "Jin'do the Hexxer",
     793: "Hakkar",
+    # Onyxia's Lair
     1084: "Onyxia",
+    # Naxxramas
     1107: "Anub'Rekhan",
     1108: "Gluth",
     1109: "Gothik the Harvester",
@@ -58,9 +64,101 @@ ENCOUNTER_ID = {
     1119: "Sapphiron",
     1120: "Thaddius",
     1121: "The Four Horsemen",
+    # Gruul's Lair
+    649: "High King Maulgar",
+    650: "Gruul the Dragonkiller",
+    # Magtheridon's Lair
+    651: "Magtheridon",
+    # Karazhan
+    652: "Attumen the Huntsman",
+    653: "Moroes",
+    654: "Maiden of Virtue",
+    655: "Opera Hall",
+    656: "The Curator",
+    657: "Terestian Illhoof",
+    658: "Shade of Aran",
+    659: "Netherspite",
+    660: "Chess Event",
+    661: "Prince Malchezaar",
+    662: "Nightbane",
+    # Serpentshrine Cavern
+    623: "Hydross the Unstable",
+    624: "The Lurker Below",
+    625: "Leotheras the Blind",
+    626: "Fathom-Lord Karathress",
+    627: "Morogrim Tidewalker",
+    628: "Lady Vashj",
+    # Tempest Keep
+    730: "Al'ar",
+    731: "Void Reaver",
+    732: "High Astromancer Solarian",
+    733: "Kael'thas Sunstrider",
+    # The Sunwell
+    724: "Kalecgos",
+    725: "Brutallus",
+    726: "Felmyst",
+    727: "Eredar Twins",
+    728: "M'uru",
+    729: "Kil'jaeden",
+    # Hyjal Summit
+    618: "Rage Winterchill",
+    619: "Anetheron",
+    620: "Kaz'rogal",
+    621: "Azgalor",
+    622: "Archimonde",
+    # Sartharion
+    742: "Sartharion",
+    # Vault of Archavon
+    772: "Archavon the Stone Watcher",
+    774: "Emalon the Storm Watcher",
+    776: "Koralon the Flame Watcher",
+    885: "Toravon the Ice Watcher",
+    # Eye of Eternity
+    734: "Malygos",
+    # Ulduar
+    744: "Flame Leviathan",
+    745: "Ignis the Furnace Master",
+    746: "Razorscale",
+    747: "XT-002 Deconstructor",
+    748: "Assembly of Iron",
+    749: "Kologarn",
+    750: "Auriaya",
+    751: "Mimiron",
+    752: "Hodir",
+    753: "Thorim",
+    754: "Freya",
+    755: "General Vezax",
+    756: "Yogg-Saron",
+    757: "Algalon the Observer",
+    # Trial of the Crusader
+    629: "Northrend Beasts",
+    633: "Lord Jaraxxus",
+    637: "Faction Champions",
+    641: "Val'Kyr Twins",
+    645: "Anub'arak",
+    # Icecrown Citadel
+    845: "Lord Marrowgar",
+    846: "Lady Deathwhisper",
+    847: "Gunship Battle",
+    848: "Deathbringer Saurfang",
+    849: "Festergut",
+    850: "Rotface",
+    851: "Professor Putricide",
+    852: "Blood Prince Council",
+    853: "Blood-Queen Lana'thel",
+    854: "Valithria Dreamwalker",
+    855: "Sindragosa",
+    856: "The Lich King",
+    # Ruby Sanctum
+    887: "Halion",
+    890: "Baltharus the Warborn",
+    891: "Saviana Ragefire",
+    893: "General Zarithrian",
+
 }
 
 ENCOUNTER_ZONES = {
+    # Classic Raids
     "Molten Core": [663, 664, 665, 666, 667, 668, 669, 670, 671, 672],
     "Onyxia": [1084],
     "Blackwing Lair": [610, 611, 612, 613, 614, 615, 616, 617],
@@ -68,9 +166,24 @@ ENCOUNTER_ZONES = {
     "Ahn'Qiraj Ruins": [718, 719, 720, 721, 722, 723],
     "Ahn'Qiraj Temple": [709, 710, 711, 712, 713, 714, 715, 716, 717],
     "Naxxramas": [1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121],
+    # TBC Raids
+    "Gruul's Lair": [649, 650],
+    "Magtheridon's Lair": [651],
+    "Karazhan": [652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662],
+    "Serpentshrine Cavern": [623, 624, 625, 626, 627, 628],
+    "The Eye": [730, 731, 732, 733],
+    "Sunwell Plateau": [724, 725, 726, 727, 728, 729],
+    # WotLK Raids
+    "The Obsidian Sanctum": [742],
+    "Vault of Archavon": [772, 774, 776, 885],
+    "Ulduar": [744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757],
+    "Trial of the Crusader": [629, 633, 637, 641, 645],
+    "Icecrown Citadel": [845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856],
+    "Ruby Sanctum": [887, 890, 891, 893],
 }
 
 ZONES_BY_ID = {
+    # Classic Raids
     1000: "Molten Core",
     1001: "Onyxia",
     1002: "Blackwing Lair",
@@ -78,6 +191,16 @@ ZONES_BY_ID = {
     1004: "Ahn'Qiraj Ruins",
     1005: "Ahn'Qiraj Temple",
     1006: "Naxxramas",
+    # TBC Raids
+    1007: "Karazhan",
+    1008: "Gruul's Lair/Magtheridon's Lair",
+    1010: "Serpentshrine Cavern/The Eye",
+    1011: "Black Temple/Hyjal Summit",
+    1013: "Sunwell Plateau",
+    # WotLK Raids
+    1014: "Heroic Dungeons",
+    1015: "Naxxramas/Sartharion/Malygos",
+    1016: "Vault of Archavon",
 }
 
 ZONES_BY_SHORT_NAME = {
@@ -88,4 +211,12 @@ ZONES_BY_SHORT_NAME = {
     "AQ20": ["Ahn'Qiraj Ruins", 1004],
     "AQ40": ["Ahn'Qiraj Temple", 1005],
     "NAXX": ["Naxxramas", 1006],
+    "KAR": ["Karazhan", 1007],
+    "GLML": ["Gruul's Lair/Magtheridon's Lair", 1008],
+    "SSCTK": ["Serpentshrine Cavern/The Eye", 1010],
+    "BTHYJAL": ["Black Temple/Hyjal Summit", 1011],
+    "SWP": ["Sunwell Plateau", 1013],
+    "HEROIC": ["Heroic Dungeons", 1014],
+    "NAXXSAMA": ["Naxxramas/Sartharion/Malygos", 1015],
+    "VOA": ["Vault of Archavon", 1016],
 }
